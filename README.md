@@ -22,9 +22,9 @@ I have pursued formal education in fields that have shaped my knowledge and expe
 I'm always open to new opportunities and collaborations. You can reach out to me through the following channels:
 
 - **Email:** mmanikantareddy2003@gmail.com
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/manikanta-reddy-m-b6809724b/)
-- **GitHub:** [Your GitHub Profile](https://github.com/ManikantaReddy-13)
-- **Portfolio Website:** [Your Portfolio Website](https://manikantareddy-13.github.io/PortfolioWeb/)
+- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/manikanta-reddy-m-b6809724b/)
+- **GitHub:** [GitHub Profile](https://github.com/ManikantaReddy-13)
+- **Portfolio Website:** [Portfolio Website](https://manikantareddy-13.github.io/PortfolioWeb/)
 
 Feel free to connect with me or send me a message—I'd love to hear from you!
 ---
