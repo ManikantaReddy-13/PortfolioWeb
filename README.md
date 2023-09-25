@@ -18,6 +18,9 @@ I possess a diverse set of skills that make me a valuable contributor in various
 ## Education
 I have pursued formal education in fields that have shaped my knowledge and expertise. Here are some details about my educational background.
 
+## Experience
+I have gained valuable experience through internships, projects, and work in various roles. Here are some highlights from my professional journey
+
 ## Contact
 I'm always open to new opportunities and collaborations. You can reach out to me through the following channels:
 
