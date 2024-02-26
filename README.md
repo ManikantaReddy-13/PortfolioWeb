@@ -25,11 +25,11 @@ I have gained valuable experience through internships, projects, and work in var
 I'm always open to new opportunities and collaborations. You can reach out to me through the following channels:
 
 - **Email:** mmanikantareddy2003@gmail.com
-- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/manikanta-reddy-m-b6809724b/)
+- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/manikantareddy13/)
 - **GitHub:** [GitHub Profile](https://github.com/ManikantaReddy-13)
 - **Portfolio Website:** [Portfolio Website](https://manikantareddy-13.github.io/PortfolioWeb/)
 
-Feel free to connect with me or send me a message—I'd love to hear from you!
+Feel free to connect with me!
 ---
 
-Thank you for visiting my portfolio website! I hope you find it informative and inspiring. If you have any questions or would like to get in touch, don't hesitate to reach out.
+Thank you for visiting my portfolio website!.
