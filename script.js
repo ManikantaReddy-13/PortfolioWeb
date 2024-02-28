@@ -43,18 +43,18 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Manikanta Reddy";
-            $("#favicon").attr("href", "favicon.png");
+            $("#favicon").attr("href", "img/Profile2.png");
         }
         else {
             document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "favhand.png");
+            $("#favicon").attr("href", "img/M_Fav.png");
         }
     });
 
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Designer", "Frontend Developer", "Freelancer", "Blogger", "Editor"],
+    strings: ["Tester", "Frontend Developer", "Freelancer", "QA Engineer"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
