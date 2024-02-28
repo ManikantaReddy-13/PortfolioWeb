@@ -96,7 +96,7 @@ header .logo i {
   font-size: 2.2rem;
 }
 header .logo:hover {
-  color: goldenrod;
+  color: red;
 }
 header .navbar ul {
   list-style: none;
@@ -461,74 +461,77 @@ header .navbar ul li a:hover {
 /* about section ends */
 
 /* skills section starts */
-.skills .skills-content .left .text{
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 10px;
+.skills {
+  min-height: 90vh;
+  background: linear-gradient(to bottom, #57059e, #4a00e0);
 }
-.skills .skills-content .left p{
-    text-align: justify;
-    font-size: 16px;
-    padding: 20px;
+.skills h2 {
+  color: #fff;
 }
-.skills .skills-content .left a{
-    display: inline-block;
-    background: crimson;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 16px;
-    margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid crimson;
-    transition: all 0.3s ease;
+.skills .heading span {
+  color: rgb(255, 230, 0);
 }
-.skills .skills-content .left a:hover{
-    color: crimson;
-    background: none;
+.skills .container {
+  background: rgba(0, 0, 22, 0.4);
+  color: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
 }
-.skills .skills-content .right .bars{
-    margin-bottom: 15px;
+.skills .container .row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  flex-wrap: wrap;
+  gap: 1.8rem;
 }
-.skills .skills-content .right .info{
-    display: flex;
-    margin-bottom: 5px;
-    align-items: center;
-    justify-content: space-between;
+.skills .container .bar {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 22, 0.9);
+  transition: 0.2s;
 }
-.skills .skills-content .right span{
-    font-weight: 500;
-    font-size: 18px;
+.skills .container .bar:hover {
+  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
 }
-.skills .skills-content .right .line{
-    height: 5px;
+.skills .container .bar .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.skills .container .bar .info i {
+  font-size: 4rem;
+}
+.skills .container .bar .info span {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  margin-left: 0.5rem;
+}
+/* skills media queries starts*/
+@media screen and (max-width: 600px) {
+  .skills .container {
+    padding: 0;
+    margin: 0;
+  }
+  .skills .container .row {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem;
+    padding: 2rem 0.2rem 2rem 0.2rem;
+    gap: 1rem;
+  }
+  .skills .container {
+    margin-top: 5px;
     width: 100%;
-    background: lightgrey;
-    position: relative;
+  }
 }
-.skills .skills-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: crimson;
-}
-.skills-content .right .html::before{
-    width: 90%;
-}
-.skills-content .right .js::before{
-    width: 70%;
-}
-.skills-content .right .css::before{
-    width: 80%;
-}
-.skills-content .right .python::before{
-    width: 80%;
-}
-.skills-content .right .mysql::before{
-    width: 90%;
-}
+/* skills media queries ends*/
 /* skills section ends */
 
 /* education section starts */
@@ -673,7 +676,7 @@ header .navbar ul li a:hover {
   height: 100%;
   width: 100%;
   position: absolute;
-  top: 85%;
+  top: 100%;
   left: 0;
   background: rgba(255, 255, 255, 0.9);
   display: flex;
