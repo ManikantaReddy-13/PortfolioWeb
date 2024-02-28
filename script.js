@@ -43,7 +43,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Manikanta Reddy";
-            $("#favicon").attr("href", "img/Profile2.png");
+            $("#favicon").attr("href", "img/profile2.png");
         }
         else {
             document.title = "Come Back To Portfolio";
